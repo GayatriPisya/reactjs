@@ -1,19 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Greeting from './Greeting'; // import the component
 
 function App() {
-  const user = "Gayatri";
-  const age = 21;
-
   return (
     <div>
-      <h1>Welcome, {user}!</h1>
-      <p>You are {age} years old.</p>
-      <p>5 + 3 = {5 + 3}</p>
+      <h1>Main App Component</h1>
+      <Greeting />  {/* This is how you use your custom component */}
     </div>
   );
 }
-
-
 
 export default App;
