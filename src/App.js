@@ -2,24 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const user = "Gayatri";
+  const age = 21;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Welcome, {user}!</h1>
+      <p>You are {age} years old.</p>
+      <p>5 + 3 = {5 + 3}</p>
     </div>
   );
 }
+
+
 
 export default App;
