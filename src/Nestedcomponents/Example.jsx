@@ -1,4 +1,5 @@
 import React from 'react'
+import TestComp from './TestComp'
 const Mango=()=>{
     return(
         <h2>This is Mango component</h2>
@@ -12,9 +13,10 @@ const Graps=()=>{
 function Example() {
   return (
     <div>
-      Sample 
+      Nested Component
       <Mango />
       <Graps />
+      <TestComp />
     </div>
   )
 }
