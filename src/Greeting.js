@@ -1,12 +1,8 @@
-import React from 'react';
-
-function Greeting() {
-  return (
-    <div>
-      <h2>Hello from the Greeting Component!</h2>
-      <p>This is a reusable React component.</p>
-    </div>
+function Greeting(){
+  return(
+    <>
+    <h1>Hello World</h1>
+    </>
   );
 }
-
 export default Greeting;
