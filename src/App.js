@@ -1,9 +1,11 @@
 import Greeting from './Greeting'; // import the component
+import Example from './Nestedcomponents/Example';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Greeting />  
+      <Example />
     </div>
   );
 }
