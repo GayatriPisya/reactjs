@@ -6,7 +6,7 @@ function App() {
     <div className='App'>
       <Greeting />  
       <Example />
-      
+      <h1>This is sample css file</h1>
     </div>
   );
 }
