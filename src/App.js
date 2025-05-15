@@ -4,7 +4,7 @@ import './App.css'
 import Apple from './Apple';
 function App() {
   return (
-    <div className='App'>
+    <div className="container">
       <Greeting />  
       <Example />
       <h1>This is sample code with styles </h1>
